@@ -10,7 +10,7 @@ if rules1:
 max_n = 0
 while n > 0:
     m = n % 10
-    if  m >= max_n:
+    if m >= max_n:
         max_n = m
         n //= 10
 print(max_n)
